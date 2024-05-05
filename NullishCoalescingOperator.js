@@ -1,6 +1,6 @@
 // 'Nullish coalescing operator' - null 병합 연산자 ??
 // ES2020에서 새롭게 추가됨
-//  
+// null 혹은 undefined 값을 가려내는 연산자
 
 const example1 = null ?? 'I'; // I
 const example2 = undefined ?? 'love'; // love
