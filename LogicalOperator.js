@@ -20,4 +20,4 @@ console.log(false || false); // false
 console.log(null && undefined); // 1번째 값이 false 이기에, 1번째 값(null)
 console.log(0 || true); // 1번째 값이 false 이기에, 2번째 값 (true)
 console.log('0' && NaN); // 1번째 값이 true이기에, 2번째 값(NaN)
-console.log({} || 123); // 
+console.log({} || 123); // 1번째 값이 true이기에, 1번째 값({})
