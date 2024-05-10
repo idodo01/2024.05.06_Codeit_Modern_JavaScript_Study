@@ -8,7 +8,7 @@
   console.log(x + y);
 })(3, 5);
 
-// 이름있는 함수 표현식은
+// 이름있는 함수는
 // 주로 재귀함수로 사용됨
 (function countdown(n) {
   console.log(n);
