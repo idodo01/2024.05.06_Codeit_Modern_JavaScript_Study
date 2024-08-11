@@ -1,9 +1,10 @@
-// 'Nullish coalescing operator' - null 병합 연산자 ??
-// ES2020에서 새롭게 추가됨
-// null 혹은 undefined 값을 가려내는 연산자
+// null 병합 연산자 (??)
+// A ?? B
+// null 또는 undefined일 때 B 출력, 아니면 A
 
-const example1 = null ?? 'I'; // I
-const example2 = undefined ?? 'love'; // love
-const example3 = 'Codeit' ?? 'JavaScript'; // Codeit
+const nullTest = null ?? 'null 또는 undefined';
 
-console.log(example1, example2, example3); // I love Codeit
+console.log(nullTest);
+
+// 출력 결과
+// 'null 또는 undefined'
