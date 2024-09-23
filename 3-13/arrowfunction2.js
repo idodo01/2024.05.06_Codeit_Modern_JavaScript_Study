@@ -1,4 +1,4 @@
-// Arrow function: 이름없는 익명함수
+// Arrow function: 화살표 함수
 
 // 파라미터가 하나일 경우,
 // () 생략 가능 
