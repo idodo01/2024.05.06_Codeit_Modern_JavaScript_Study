@@ -1,4 +1,4 @@
-// Arrow function: 이름없는 익명함수
+// Arrow function: 화살표 함수
 const getTwice1 = function(number) {
     return number * 2;
   };
