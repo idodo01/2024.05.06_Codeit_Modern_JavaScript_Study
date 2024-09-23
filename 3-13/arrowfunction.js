@@ -1,4 +1,6 @@
 // Arrow function: 화살표 함수
+// 익명함수이기에 이름이 없음
+
 const getTwice1 = function(number) {
     return number * 2;
   };
